@@ -20,15 +20,17 @@ Before starting, ensure you have the following installed:
 
    ```bash
    docker load -i api_testing_service_latest.tar.xz
+  ```bash
+   docker run -d -p 8900:8900 --name apiservice api_testing_service
 
 2. Clone the project
 git clone <repository_url>
 cd <project_folder>
 
 
-3: Run the Tests
-mvn test
+3: Run the Tests via cmd
+"mvn test"
 
 
-4: View the Test Report
-/reports/report.html
+4: View the Test Report inside 
+"/reports/report.html"
