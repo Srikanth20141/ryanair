@@ -1,13 +1,34 @@
-# Ryanair api challage 
+# ✈️ Ryanair API Challenge
 
-in order to run the project
+This project is designed to test the Ryanair demo API using automated tests. Below are the instructions to set up and run the project.
 
-Pre-condition
-Install Docker
-Import app image to Docker like this: docker load -i api_testing_service_latest.tar.xz
-Start demo app like this: docker run -d -p 8900:8900 --name apiservice api_testing_service
+---
 
-clone the project 
-in the command line type "mvn test" 
+## ✅ Pre-requisites
 
-final report will be available inside the reports folder as html file
+Before starting, ensure you have the following installed:
+
+- [Docker](https://www.docker.com/products/docker-desktop/)
+- [Maven](https://maven.apache.org/download.cgi)
+- Git (to clone the project)
+
+---
+
+## 🐳 Step 1: Load and Run the Demo App in Docker
+
+1. Import the demo app Docker image:
+
+   ```bash
+   docker load -i api_testing_service_latest.tar.xz
+
+2. Clone the project
+git clone <repository_url>
+cd <project_folder>
+
+
+3: Run the Tests
+mvn test
+
+
+4: View the Test Report
+/reports/report.html
