@@ -1,0 +1,6 @@
+{
+  "date": "{{date}}",
+  "destination": "CMD",
+  "origin": "JDF",
+  "userId": "{{userId}}"
+}

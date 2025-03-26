@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-26T10:44:37 WET" name="Default suite" finished-at="2025-03-26T10:44:39 WET" duration-ms="1582">
+    <groups>
+    </groups>
+    <test started-at="2025-03-26T10:44:37 WET" name="Default test" finished-at="2025-03-26T10:44:39 WET" duration-ms="1582">
+      <class name="ryanair.com.Testcase">
+        <test-method signature="createUser()[pri:0, instance:ryanair.com.Testcase@57db2b13]" started-at="2025-03-26T10:44:37 WET" name="createUser" finished-at="2025-03-26T10:44:39 WET" duration-ms="1464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getAllUser()[pri:1, instance:ryanair.com.Testcase@57db2b13]" started-at="2025-03-26T10:44:39 WET" name="getAllUser" finished-at="2025-03-26T10:44:39 WET" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUser -->
+        <test-method signature="getUserById()[pri:2, instance:ryanair.com.Testcase@57db2b13]" started-at="2025-03-26T10:44:39 WET" name="getUserById" finished-at="2025-03-26T10:44:39 WET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserById -->
+        <test-method signature="createBooking()[pri:3, instance:ryanair.com.Testcase@57db2b13]" started-at="2025-03-26T10:44:39 WET" name="createBooking" finished-at="2025-03-26T10:44:39 WET" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="getBookingById()[pri:4, instance:ryanair.com.Testcase@57db2b13]" started-at="2025-03-26T10:44:39 WET" name="getBookingById" finished-at="2025-03-26T10:44:39 WET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingById -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:ryanair.com.Testcase@57db2b13]" started-at="2025-03-26T10:44:39 WET" name="tearDownReport" finished-at="2025-03-26T10:44:39 WET" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- ryanair.com.Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
